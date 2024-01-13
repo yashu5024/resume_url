@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #7689de;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+#profile-photo {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 80px; /* Adjust the width as needed */
+    border-radius: 50%; /* To make the image circular */
+}
+
+nav {
+    background-color: #e272;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #a9dce3;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.footer {
+    /* Remove the footer styling */
+}
+
+.view-more {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.view-more a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
