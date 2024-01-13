@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Homepage</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img id="profile-photo" src="{% static 'WhatsApp Image 2024-01-13 at 6.59.26 PM.jpeg' %}" alt="Your Photo">
+        <h1>Django Web Developer</h1>
+        <p>Yashwanth T</p>
+        <p>Bengaluru, 560089</p>
+        <p>7348905268  | yashwantht734@gmail.com</p>
+    </header>
+
+    <nav>
+        <a href="#objective">Objective</a> |
+        <a href="#education">Education</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#skills">Skills and Certifications</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="grid-container">
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>An enthusiastic fresher still persuing in the field of ECE who is willing and waiting to work in the environment
+which encourages me to get succeed and grow professionally where I can Utilize my skills and knowledge
+appropriately.</p>
+            <div class="view-more">
+                <a href="next_page_objective.html"><i class="fas fa-arrow-right"></i> View More</a>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>BMS institute of technology and management</h3>
+            <h4>department-ECE , CGPA-7.11</h4>
+            <div class="view-more">
+                <a href="next_page_education.html"><i class="fas fa-arrow-right"></i> View More</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>"Foot Step Power Generation"</h3>
+            <div class="view-more">
+                <a href="next_page_projects.html"><i class="fas fa-arrow-right"></i> View More</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills and Certifications</h2>
+            <ul>
+                <li>problem solving</li>
+                <li>python</li>
+                <li>Django framework</li>
+                <li>Object Oriented Programming</li>
+            </ul>
+            <div class="view-more">
+                <a href="next_page_skills.html"><i class="fas fa-arrow-right"></i> View More</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: yashwantht734@gmail.com</li>
+                <li>Phone: +91-7348905268</li>
+                <li>LinkedIn: https://www.linkedin.com/in/yashwanth-t-a2a349261</li>
+                <li>GitHub: https://github.com/yashu5024/resume_url.git</li>
+            </ul>
+        </section>
+    </div>
+</body>
+                  </html>
